@@ -1,0 +1,21 @@
+Nama,Status,mata_kuliah,subbab,waktu,gaya_belajar,mode,fleksibel_waktu
+Lala,tutor,Kalkulus,Limit,6/16/2025 20:30,Diskusi dua arah,Online – Video Call,True
+Tari,murid,Kalkulus,Integral,6/18/2025 13:00,Visual & konsep,Offline (sekitar ITS),False
+Iqbal,tutor,Jaringan Komputer,Routing,6/16/2025 20:30,Langsung latihan soal,Offline (sekitar ITS),False
+Yoga,murid,Jaringan Komputer,OSI Layer,6/16/2025 20:30,Diskusi dua arah,Offline (sekitar ITS),True
+Rina,tutor,Struktur Data,Hash Table,6/20/2025 14:30,Visual & konsep,Online – Video Call,False
+Mira,murid,Struktur Data,Hash Table,6/20/2025 14:30,Diskusi dua arah,Offline (sekitar ITS),True
+Budi,tutor,Teori Graf,DFS vs BFS,6/25/2025 19:00,Diskusi dua arah,Offline (sekitar ITS),False
+Bayu,murid,Teori Graf,DFS vs BFS,6/25/2025 19:00,Diskusi dua arah,Offline (sekitar ITS),False
+Sari,tutor,Kalkulus,Integral,6/20/2025 14:30,Visual & konsep,Chat Diskusi (WA/Telegram),False
+Dina,murid,Kalkulus,Integral,6/20/2025 14:30,Visual & konsep,Online – Video Call,True
+Dimas,tutor,Jaringan Komputer,OSI Layer,6/23/2025 10:30,Visual & konsep,Online – Video Call,True
+Rafi,murid,Jaringan Komputer,OSI Layer,6/23/2025 10:30,Diskusi dua arah,Online – Video Call,False
+Fira,tutor,Struktur Data,Binary Tree,6/20/2025 14:30,Diskusi dua arah,Offline (sekitar ITS),True
+Citra,murid,Struktur Data,Binary Tree,6/20/2025 14:30,Langsung latihan soal,Offline (sekitar ITS),True
+Andi,tutor,Teori Graf,DFS vs BFS,6/25/2025 13:00,Diskusi dua arah,Online – Video Call,False
+Arif,murid,Teori Graf,DFS vs BFS,6/25/2025 9:00,Langsung latihan soal,Online – Video Call,False
+Nina,tutor,Kalkulus,Integral,6/16/2025 20:30,Visual & konsep,Online – Video Call,True
+Nadia,murid,Kalkulus,Turunan,6/16/2025 20:30,Langsung latihan soal,Chat Diskusi (WA/Telegram),False
+Eko,tutor,Jaringan Komputer,OSI Layer,6/25/2025 13:00,Diskusi dua arah,Offline (sekitar ITS),False
+Rian,murid,Jaringan Komputer,Subnetting,6/23/2025 13:00,Langsung latihan soal,Chat Diskusi (WA/Telegram),True

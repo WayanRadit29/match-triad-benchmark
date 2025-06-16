@@ -1,0 +1,11 @@
+Nama,Status,mata_kuliah,subbab,waktu,gaya_belajar,mode,fleksibel_waktu
+Naya,tutor,Kalkulus,Limit,6/18/2025 17:00,Visual & konsep,Chat Diskusi (WA/Telegram),False
+Iqbal,murid,Kalkulus,Limit,6/18/2025 17:00,Visual & konsep,Online – Video Call,True
+Lala,tutor,Kalkulus,Limit,6/20/2025 9:30,Visual & konsep,Online – Video Call,True
+Rina,murid,Teori Graf,DFS vs BFS,6/16/2025 16:00,Diskusi dua arah,Chat Diskusi (WA/Telegram),True
+Beni,tutor,Jaringan Komputer,Routing,6/20/2025 9:30,Diskusi dua arah,Chat Diskusi (WA/Telegram),True
+Dian,murid,Teori Graf,MST,6/17/2025 10:30,Visual & konsep,Online – Video Call,False
+Alex,tutor,Teori Graf,MST,6/23/2025 15:30,Langsung latihan soal,Offline (sekitar ITS),False
+Daffa,murid,Struktur Data,Hash Table,6/23/2025 16:30,Langsung latihan soal,Offline (sekitar ITS),False
+Raya,tutor,Teori Graf,MST,6/18/2025 17:00,Langsung latihan soal,Offline (sekitar ITS),False
+Harsa,murid,Struktur Data,Hash Table,6/18/2025 17:00,Langsung latihan soal,Offline (sekitar ITS),True
