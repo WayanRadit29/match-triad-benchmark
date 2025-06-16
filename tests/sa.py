@@ -16,8 +16,8 @@ def sa_match(murid, tutor, cap_init, pref, T0=1.0, cooling=0.995, steps=1500):
 
     Returns:
         best (dict): assignment terbaik {murid_id: tutor_id}
-        best_fit (float): nilai fitness assignment terbaik
-    """
+        best_fit (float): nilai fitness assignment terbaik c
+    """ 
     # Precompute skor per pasangan
     score_pair = {(m,t): sum(pref[(m,t)].values()) for m in murid for t in tutor}
     PEN        = max(score_pair.values()) * len(murid)
