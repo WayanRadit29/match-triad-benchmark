@@ -1,0 +1,21 @@
+Nama,Status,mata_kuliah,subbab,waktu,gaya_belajar,mode,notes,fleksibel_waktu
+Bayu,murid,Kalkulus,Turunan dan Aplikasinya,2024-01-30 06:32,Diskusi dua arah,Offline (sekitar ITS),,True
+Reno,murid,Kalkulus,Turunan dan Aplikasinya,2024-05-15 15:31,Diskusi dua arah,Offline (sekitar ITS),,False
+Gilang,murid,Kalkulus,Turunan dan Aplikasinya,2024-08-17 02:45,Diskusi dua arah,Offline (sekitar ITS),,True
+Dina,murid,Kalkulus,Turunan dan Aplikasinya,2024-05-15 15:31,Diskusi dua arah,Offline (sekitar ITS),,True
+Rafi,murid,Kalkulus,Turunan dan Aplikasinya,2024-01-08 02:47,Diskusi dua arah,Offline (sekitar ITS),,True
+Salsa,murid,Kalkulus,Turunan dan Aplikasinya,2024-06-04 13:08,Diskusi dua arah,Offline (sekitar ITS),,False
+Aji,murid,Kalkulus,Turunan dan Aplikasinya,2024-06-27 05:10,Diskusi dua arah,Offline (sekitar ITS),,True
+Kinan,murid,Kalkulus,Turunan dan Aplikasinya,2024-05-15 15:31,Diskusi dua arah,Offline (sekitar ITS),,True
+Tari,murid,Kalkulus,Turunan dan Aplikasinya,2024-08-06 08:01,Diskusi dua arah,Offline (sekitar ITS),,True
+Mega,murid,Kalkulus,Turunan dan Aplikasinya,2024-05-15 15:31,Diskusi dua arah,Offline (sekitar ITS),,False
+Putri,tutor,Kalkulus,Turunan dan Aplikasinya,2024-05-15 15:31,Diskusi dua arah,Chat Diskusi (WA/Telegram),Tutor populer – cocok untuk sebagian murid,True
+Tono,tutor,Jaringan Komputer,Routing dan Switching,2024-05-15 15:31,Visual & konsep,Online – Video Call,Tutor populer – cocok untuk sebagian murid,True
+Fira,tutor,Struktur Data,Graph,2024-05-15 15:31,Diskusi dua arah,Offline (sekitar ITS),Tutor populer – cocok untuk sebagian murid,True
+Bimo,tutor,Teori Graf,Pewarnaan Graf,2024-03-08 13:01,Visual & konsep,Offline (sekitar ITS),Kurang cocok – gaya berbeda / jadwal bentrok,True
+Laras,tutor,Jaringan Komputer,Routing dan Switching,2024-08-31 05:19,Visual & konsep,Online – Video Call,Kurang cocok – gaya berbeda / jadwal bentrok,False
+Herman,tutor,Teori Graf,Graf Dasar,2024-11-18 01:38,Visual & konsep,Offline (sekitar ITS),Kurang cocok – gaya berbeda / jadwal bentrok,True
+Eka,tutor,Kalkulus,Integral Tentu dan Tak Tentu,2024-04-18 20:54,Langsung latihan soal,Online – Video Call,Kurang cocok – gaya berbeda / jadwal bentrok,False
+Nino,tutor,Teori Graf,Pencarian Graf,2024-04-18 04:07,Visual & konsep,Chat Diskusi (WA/Telegram),Kurang cocok – gaya berbeda / jadwal bentrok,False
+Chika,tutor,Kalkulus,Integral Tentu dan Tak Tentu,2024-09-22 20:44,Visual & konsep,Online – Video Call,Kurang cocok – gaya berbeda / jadwal bentrok,False
+Dodi,tutor,Kalkulus,Integral Tentu dan Tak Tentu,2024-07-01 00:50,Langsung latihan soal,Chat Diskusi (WA/Telegram),Kurang cocok – gaya berbeda / jadwal bentrok,True
