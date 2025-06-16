@@ -1,0 +1,21 @@
+Nama,Status,mata_kuliah,subbab,waktu,gaya_belajar,mode,notes,fleksibel_waktu
+Tina,tutor,Struktur Data,Hash Table,6/22/2025 18:30,Visual & konsep,Chat Diskusi (WA/Telegram),,False
+Yani,murid,Struktur Data,Binary Tree,6/22/2025 18:30,Langsung latihan soal,Offline (sekitar ITS),,True
+Fauzan,tutor,Jaringan Komputer,Routing,6/21/2025 10:30,Visual & konsep,Chat Diskusi (WA/Telegram),,True
+Sasi,murid,Jaringan Komputer,OSI Layer,6/21/2025 10:30,Langsung latihan soal,Online – Video Call,,True
+Syaif,tutor,Teori Graf,DFS vs BFS,6/25/2025 8:00,Diskusi dua arah,Online – Video Call,,False
+Reno,murid,Struktur Data,Hash Table,6/25/2025 8:00,Diskusi dua arah,Online – Video Call,,False
+Gina,tutor,Jaringan Komputer,OSI Layer,6/24/2025 13:30,Diskusi dua arah,Chat Diskusi (WA/Telegram),,False
+Hera,murid,Teori Graf,DFS vs BFS,6/24/2025 13:30,Langsung latihan soal,Online – Video Call,,False
+Nisa,tutor,Jaringan Komputer,Routing,6/25/2025 8:00,Langsung latihan soal,Offline (sekitar ITS),,False
+Jeje,murid,Teori Graf,MST,6/25/2025 8:00,Langsung latihan soal,Online – Video Call,,False
+Qian,tutor,Jaringan Komputer,Subnetting,6/20/2025 17:00,Langsung latihan soal,Chat Diskusi (WA/Telegram),,True
+Zaza,murid,Struktur Data,Hash Table,6/19/2025 19:00,Visual & konsep,Online – Video Call,,True
+Nadia,tutor,Jaringan Komputer,Subnetting,6/20/2025 17:00,Langsung latihan soal,Offline (sekitar ITS),,False
+Salsa,murid,Jaringan Komputer,Subnetting,6/16/2025 14:00,Visual & konsep,Chat Diskusi (WA/Telegram),,False
+Raisa,tutor,Jaringan Komputer,Subnetting,6/21/2025 10:30,Visual & konsep,Offline (sekitar ITS),,True
+Toni,murid,Kalkulus,Turunan,6/16/2025 13:30,Visual & konsep,Offline (sekitar ITS),,True
+Tata,tutor,Kalkulus,Integral,6/22/2025 18:30,Langsung latihan soal,Offline (sekitar ITS),,True
+Kala,murid,Jaringan Komputer,Routing,6/22/2025 18:30,Langsung latihan soal,Online – Video Call,,True
+Bintang,tutor,Struktur Data,Hash Table,6/20/2025 17:00,Visual & konsep,Chat Diskusi (WA/Telegram),,False
+Amanda,murid,Kalkulus,Integral,6/25/2025 19:00,Diskusi dua arah,Offline (sekitar ITS),,True
