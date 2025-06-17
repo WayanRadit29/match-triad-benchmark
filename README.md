@@ -1,6 +1,6 @@
-# 📚 MATCH-TUTOR: Matching Murid dan Tutor dengan CSP, Genetic Algorithm, dan Simulated Annealing
+# MATCH-TUTOR: Matching Murid dan Tutor dengan CSP, Genetic Algorithm, dan Simulated Annealing
 
-## 🧠 Deskripsi Proyek
+## Deskripsi Proyek
 
 MATCH-TUTOR adalah sistem pencocokan otomatis antara murid dan tutor berbasis preferensi, menggunakan tiga pendekatan algoritmik:
 
@@ -10,7 +10,7 @@ MATCH-TUTOR adalah sistem pencocokan otomatis antara murid dan tutor berbasis pr
 
 Setiap metode dievaluasi berdasarkan: kualitas solusi (total score), pemenuhan constraint, waktu eksekusi, dan determinisme solusi.
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```
 MATCH-TUTOR/
@@ -35,7 +35,7 @@ MATCH-TUTOR/
 └── README.md
 ```
 
-## 📊 Skenario Pengujian
+## Skenario Pengujian
 
 ### S1 – Dataset Lengkap (10 murid & 10 tutor)
 
@@ -54,20 +54,20 @@ MATCH-TUTOR/
 
 ---
 
-## ⚙️ Metode yang Diimplementasikan
+## ⚙Metode yang Diimplementasikan
 
-### ✅ Backtracking CSP + MRV + Forward Checking
+### Backtracking CSP + MRV + Forward Checking
 
 * Deterministik (selalu hasil sama)
 * Akurat, tapi boros waktu saat skenario besar
 
-### ✅ Genetic Algorithm
+### Genetic Algorithm
 
 * Representasi kromosom: list indeks tutor
 * Evaluasi fitness: kombinasi bobot atribut (mata kuliah, topik, gaya belajar, dll)
 * Operator: crossover, mutasi, seleksi
 
-### ✅ Simulated Annealing
+### Simulated Annealing
 
 * Representasi solusi: assignment list
 * Menerima solusi lebih buruk di awal (probabilistik)
@@ -75,7 +75,7 @@ MATCH-TUTOR/
 
 ---
 
-## 📈 Hasil Eksperimen Ringkas
+## Hasil Eksperimen Ringkas
 
 | Skenario | Algoritma | Total Skor | Constraint (%) | Waktu Eksekusi | Deterministik |
 | -------- | --------- | ---------- | -------------- | -------------- | ------------- |
@@ -94,7 +94,7 @@ MATCH-TUTOR/
 
 ---
 
-## 📌 Visualisasi
+## Visualisasi
 
 * **Bar Chart**: Perbandingan skor total dan persentase constraint antar metode
 
@@ -107,15 +107,19 @@ MATCH-TUTOR/
 
 * **Heatmap**: Determinisme hasil (CSP selalu deterministik)
 
+<<<<<<< HEAD
 ![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153153.png)
 
 ## 🧪 Requirement
+=======
+## Requirement
+>>>>>>> 8adc31474e13700ef6f6c48b4c7a266cf0b11d37
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## ▶️ Cara Menjalankan
+## ▶Cara Menjalankan
 
 ```bash
 # Backtracking CSP
@@ -133,7 +137,7 @@ python main.py
 
 ---
 
-## 📌 Catatan
+## Catatan
 
 * Dataset sudah tersedia di folder `/data/`
 * Hasil eksperimen dan plot dapat digunakan untuk laporan & presentasi
