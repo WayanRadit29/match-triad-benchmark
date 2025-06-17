@@ -114,13 +114,13 @@ match-triad-benchmark/
 
 ![Determinism](assets/Screenshot%202025-06-17%20153153.png)
 
-## ⚒ Requirements
+## Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## ▶ How to Run
+## How to Run
 
 ```bash
 # Backtracking CSP
