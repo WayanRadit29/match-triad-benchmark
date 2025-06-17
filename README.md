@@ -75,7 +75,7 @@ MATCH-TUTOR/
 
 ---
 
-## Hasil Eksperimen Ringkas
+## 📈 Hasil Eksperimen Ringkas
 
 | Skenario | Algoritma | Total Skor | Constraint (%) | Waktu Eksekusi | Deterministik |
 | -------- | --------- | ---------- | -------------- | -------------- | ------------- |
@@ -94,18 +94,20 @@ MATCH-TUTOR/
 
 ---
 
-* **Bar Chart**: Perbandingan skor total dan persentase constraint antar metode
+## Visualisasi
 
-![Skor Total](assets/Screenshot 2025-06-17 153127.png)
-![Persentase Constraint](assets/Screenshot 2025-06-17 153135.png)
+### Total Score Comparison & Constraint Fulfillment
 
-* **Line Plot**: Waktu eksekusi terhadap skenario (terlihat SA paling ringan)
+![Skor & Constraint](assets/Screenshot%202025-06-17%20153127.png)
+![Skor & Constraint](assets/Screenshot%202025-06-17%20153135.png)
 
-![Waktu Eksekusi](assets/Screenshot 2025-06-17 153144.png)
+### Execution Time per Scenario
 
-* **Heatmap**: Determinisme hasil (CSP selalu deterministik)
+![Execution Time](assets/Screenshot%202025-06-17%20153144.png)
 
-![Determinisme Hasil](assets/Screenshot 2025-06-17 153153.png)
+### Determinism Heatmap
+
+![Determinism](assets/Screenshot%202025-06-17%20153153.png)
 
 ## Requirement
 
