@@ -1,108 +1,111 @@
-# MATCH-TUTOR: Matching Murid dan Tutor dengan CSP, Genetic Algorithm, dan Simulated Annealing
+# MATCH-TRIAD-BENCHMARK: Student-Tutor Matching with CSP, Genetic Algorithm, and Simulated Annealing
 
-## Deskripsi Proyek
+## Project Description
 
-MATCH-TUTOR adalah sistem pencocokan otomatis antara murid dan tutor berbasis preferensi, menggunakan tiga pendekatan algoritmik:
+This repository is a benchmark suite designed to compare three algorithmic approaches for solving the student-tutor matching problem based on individual preferences.
 
-* **Backtracking CSP + MRV + Forward Checking**
-* **Genetic Algorithm (GA)**
-* **Simulated Annealing (SA)**
+The objective is to analyze and contrast the strengths and trade-offs of:
 
-Setiap metode dievaluasi berdasarkan: kualitas solusi (total score), pemenuhan constraint, waktu eksekusi, dan determinisme solusi.
+* **Backtracking CSP + MRV + Forward Checking** – an exact, deterministic method rooted in classical constraint satisfaction.
+* **Genetic Algorithm (GA)** – a stochastic, population-based metaheuristic inspired by biological evolution.
+* **Simulated Annealing (SA)** – a probabilistic optimization strategy modeled on the annealing process in metallurgy.
 
-## Struktur Folder
+Each algorithm is evaluated across a series of structured scenarios using consistent metrics: total score (solution quality), percentage of satisfied constraints, runtime performance, and consistency (determinism) of outcomes.
+
+
+## Folder Structure
 
 ```
 match-triad-benchmark/
 ├── Backtracking_CSP/
-│   ├── back_CSP.py       # Implementasi CSP + MRV
-│   ├── fitness.py        # Fungsi evaluasi kesesuaian
-│   └── test.py           # Main runner untuk CSP
+│   ├── back_CSP.py       # CSP + MRV implementation
+│   ├── fitness.py        # Suitability scoring function
+│   └── test.py           # CSP main runner
 │
 ├── Genetic_Algorithm/
 │   └── src/
-│       ├── ga/           # Implementasi GA
-│       ├── fitness.py    # Fitness function untuk GA
-│       └── main.py       # Pipeline GA untuk semua skenario
+│       ├── ga/           # GA implementation
+│       ├── fitness.py    # Fitness function for GA
+│       └── main.py       # GA scenario pipeline
 │
 ├── simulated_annealing/
 │   └── src/
-│       ├── sa.py         # Implementasi SA
-│       ├── fitness.py    # Fitness function untuk SA
-│       └── main.py       # Pipeline SA untuk semua skenario
+│       ├── sa.py         # SA implementation
+│       ├── fitness.py    # Fitness function for SA
+│       └── main.py       # SA scenario pipeline
 │
-├── data/                 # Dataset CSV untuk semua skenario
+├── data/                 # CSV datasets for all scenarios
 └── README.md
 ```
 
-## Skenario Pengujian
+## Testing Scenarios
 
-### S1 – Dataset Lengkap (10 murid & 10 tutor)
+### S1 – Complete Dataset (10 students & 10 tutors)
 
-* Preferensi lengkap
-* 1 tutor hanya menerima 1 murid
+* Fully filled preference profiles
+* Each tutor only accepts 1 student
 
-### S2 – Skala Bertahap (5, 10, 25 pasangan)
+### S2 – Scalable Benchmark (5, 10, 25 pairs)
 
-* Preferensi bervariasi & realistis
-* Digunakan untuk menguji efisiensi dan skalabilitas
+* Varied and realistic preferences
+* Used to test algorithm scalability & efficiency
 
 ### S3 – Conflict-Heavy Matching
 
-* Tutor populer hanya 2-3 orang
-* Semua murid bersaing terhadap tutor yang sama
+* Only 2–3 popular tutors
+* All students compete for limited tutor resources
 
 ---
 
-## Metode yang Diimplementasikan
+## Implemented Methods
 
 ### Backtracking CSP + MRV + Forward Checking
 
-* Deterministik (selalu hasil sama)
-* Akurat, tapi boros waktu saat skenario besar
+* Deterministic (always same result)
+* Accurate but time-consuming on large scale
 
 ### Genetic Algorithm
 
-* Representasi kromosom: list indeks tutor
-* Evaluasi fitness: kombinasi bobot atribut (mata kuliah, topik, gaya belajar, dll)
-* Operator: crossover, mutasi, seleksi
+* Chromosome: list of tutor indices
+* Fitness: weighted combination of attributes (subject, topic, learning style, etc.)
+* Operators: crossover, mutation, selection
 
 ### Simulated Annealing
 
-* Representasi solusi: assignment list
-* Menerima solusi lebih buruk di awal (probabilistik)
-* Cepat, cocok untuk skenario besar
+* Representation: assignment list
+* Accepts worse solutions early on (probabilistic)
+* Fast and efficient for larger scenarios
 
 ---
 
-## 📈 Hasil Eksperimen Ringkas
+## Summary of Experimental Results
 
-| Skenario | Algoritma | Total Skor | Constraint (%) | Waktu Eksekusi | Deterministik |
-| -------- | --------- | ---------- | -------------- | -------------- | ------------- |
-| S1 (10)  | CSP       | 7.80       | **70.00%**     | 0.39s          | ✅             |
-|          | GA        | 7.30       | 68.00%         | 2.33s          | ✅             |
-|          | SA        | 7.40       | 70.00%         | **0.47s**      | ❌             |
-| S2 (5)   | CSP       | 2.40       | **52.00%**     | 0.37s          | ✅             |
-|          | GA        | 2.30       | 52.00%         | 1.12s          | ✅             |
-|          | SA        | 2.50       | 48.00%         | **0.23s**      | ❌             |
-| S2 (10)  | CSP       | 5.80       | **52.00%**     | 2.03s          | ✅             |
-|          | GA        | 5.00       | 48.00%         | 2.22s          | ❌             |
-|          | SA        | 5.80       | 54.00%         | **0.46s**      | ❌             |
-| S2 (25)  | CSP       | **17.60**  | **66.60%**     | 9.14s          | ✅             |
-|          | GA        | 13.20      | 51.20%         | 5.45s          | ❌             |
-|          | SA        | 16.20      | 62.40%         | **1.14s**      | ❌             |
-| S3       | CSP       | 7.80       | 68.00%         | 0.41s          | ✅             |
-|          | GA        | 2.70       | 26.00%         | 2.26s          | ❌             |
-|          | SA        | **7.80**   | **68.00%**     | **0.45s**      | ✅             |
+| Scenario | Algorithm | Total Score | Constraint (%) | Execution Time | Deterministic |
+| -------- | --------- | ----------- | -------------- | -------------- | ------------- |
+| S1 (10)  | CSP       | 7.80        | **70.00%**     | 0.39s          | ✅             |
+|          | GA        | 7.30        | 68.00%         | 2.33s          | ✅             |
+|          | SA        | 7.40        | 70.00%         | **0.47s**      | ❌             |
+| S2 (5)   | CSP       | 2.40        | **52.00%**     | 0.37s          | ✅             |
+|          | GA        | 2.30        | 52.00%         | 1.12s          | ✅             |
+|          | SA        | 2.50        | 48.00%         | **0.23s**      | ❌             |
+| S2 (10)  | CSP       | 5.80        | **52.00%**     | 2.03s          | ✅             |
+|          | GA        | 5.00        | 48.00%         | 2.22s          | ❌             |
+|          | SA        | 5.80        | 54.00%         | **0.46s**      | ❌             |
+| S2 (25)  | CSP       | **17.60**   | **66.60%**     | 9.14s          | ✅             |
+|          | GA        | 13.20       | 51.20%         | 5.45s          | ❌             |
+|          | SA        | 16.20       | 62.40%         | **1.14s**      | ❌             |
+| S3       | CSP       | 7.80        | 68.00%         | 0.41s          | ✅             |
+|          | GA        | 2.70        | 26.00%         | 2.26s          | ❌             |
+|          | SA        | **7.80**    | **68.00%**     | **0.45s**      | ✅             |
 
 ---
 
-## Visualisasi
+## Visualizations
 
-### Total Score Comparison & Constraint Fulfillment
+### Total Score & Constraint Fulfillment
 
-![Skor & Constraint](assets/Screenshot%202025-06-17%20153127.png)
-![Skor & Constraint](assets/Screenshot%202025-06-17%20153135.png)
+![Score & Constraint](assets/Screenshot%202025-06-17%20153127.png)
+![Score & Constraint](assets/Screenshot%202025-06-17%20153135.png)
 
 ### Execution Time per Scenario
 
@@ -112,13 +115,13 @@ match-triad-benchmark/
 
 ![Determinism](assets/Screenshot%202025-06-17%20153153.png)
 
-## Requirement
+## ⚒ Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## ▶Cara Menjalankan
+## ▶ How to Run
 
 ```bash
 # Backtracking CSP
@@ -136,11 +139,11 @@ python main.py
 
 ---
 
-## Catatan
+## Notes
 
-* Dataset sudah tersedia di folder `/data/`
-* Hasil eksperimen dan plot dapat digunakan untuk laporan & presentasi
-* Evaluasi lengkap mencakup *score, fulfillment, time, determinisme*
+* Datasets are provided in the `/data/` folder
+* Results and plots can be used in reports & presentations
+* Full evaluation includes score, constraint fulfillment, time, and determinism
 
 ---
 
