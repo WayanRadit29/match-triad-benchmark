@@ -54,7 +54,7 @@ MATCH-TUTOR/
 
 ---
 
-## ⚙Metode yang Diimplementasikan
+## Metode yang Diimplementasikan
 
 ### Backtracking CSP + MRV + Forward Checking
 
@@ -94,26 +94,20 @@ MATCH-TUTOR/
 
 ---
 
-## Visualisasi
-
 * **Bar Chart**: Perbandingan skor total dan persentase constraint antar metode
 
-![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153127.png)
-![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153135.png)
+![Skor Total](assets/Screenshot 2025-06-17 153127.png)
+![Persentase Constraint](assets/Screenshot 2025-06-17 153135.png)
 
 * **Line Plot**: Waktu eksekusi terhadap skenario (terlihat SA paling ringan)
 
-![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153144.png)
+![Waktu Eksekusi](assets/Screenshot 2025-06-17 153144.png)
 
 * **Heatmap**: Determinisme hasil (CSP selalu deterministik)
 
-<<<<<<< HEAD
-![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153153.png)
+![Determinisme Hasil](assets/Screenshot 2025-06-17 153153.png)
 
-## 🧪 Requirement
-=======
 ## Requirement
->>>>>>> 8adc31474e13700ef6f6c48b4c7a266cf0b11d37
 
 ```bash
 pip install -r requirements.txt
@@ -145,7 +139,7 @@ python main.py
 
 ---
 
-> ⭐️ If you find this useful, please star the repo!
+
 
 ---
 
