@@ -12,7 +12,6 @@ The objective is to analyze and contrast the strengths and trade-offs of:
 
 Each algorithm is evaluated across a series of structured scenarios using consistent metrics: total score (solution quality), percentage of satisfied constraints, runtime performance, and consistency (determinism) of outcomes.
 
-
 ## Folder Structure
 
 ```
