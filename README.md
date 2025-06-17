@@ -13,7 +13,7 @@ Setiap metode dievaluasi berdasarkan: kualitas solusi (total score), pemenuhan c
 ## Struktur Folder
 
 ```
-MATCH-TUTOR/
+match-triad-benchmark/
 ├── Backtracking_CSP/
 │   ├── back_CSP.py       # Implementasi CSP + MRV
 │   ├── fitness.py        # Fungsi evaluasi kesesuaian
