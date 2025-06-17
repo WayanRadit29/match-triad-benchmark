@@ -97,8 +97,17 @@ MATCH-TUTOR/
 ## 📌 Visualisasi
 
 * **Bar Chart**: Perbandingan skor total dan persentase constraint antar metode
+
+![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153127.png)
+![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153135.png)
+
 * **Line Plot**: Waktu eksekusi terhadap skenario (terlihat SA paling ringan)
+
+![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153144.png)
+
 * **Heatmap**: Determinisme hasil (CSP selalu deterministik)
+
+![Deskripsi Alt Text](assets\Screenshot 2025-06-17 153153.png)
 
 ## 🧪 Requirement
 
