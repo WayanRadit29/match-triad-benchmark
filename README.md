@@ -141,7 +141,7 @@ python main.py
 
 ---
 
-
+> ⭐️ If you find this useful, please star the repo!
 
 ---
 
