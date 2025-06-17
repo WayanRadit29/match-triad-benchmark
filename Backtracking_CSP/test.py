@@ -45,6 +45,9 @@ if __name__ == '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, 'data')
 
+    print("\nBacktracking CSP + MRV")
+    print("")
+
     for key in scenario_order:
         filename = f"{key}.csv"
         path = os.path.join(data_dir, filename)

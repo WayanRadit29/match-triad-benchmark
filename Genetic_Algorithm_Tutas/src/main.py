@@ -72,7 +72,9 @@ def run_all_scenarios():
     #bobot_penilaian_dan_parameter_GA
     weights={'mata_kuliah':0.3,'subbab':0.2,'gaya_belajar':0.2,'mode':0.1,'waktu':0.2}
     ga_params={'pop_size':50,'generations':100,'crossover_rate':0.8,'mutation_rate':0.1}
-
+    
+    print("\nGenetic Algorithm")
+    print("")
     #loop_semua_skenario_dengan_urutan
     for key in scenario_order:
         file_name=f"{key}.csv"

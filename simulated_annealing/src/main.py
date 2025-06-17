@@ -69,6 +69,8 @@ def run_all_scenarios():
     weights = {'mata_kuliah': 0.3, 'subbab': 0.2, 'gaya_belajar': 0.2, 'mode': 0.1, 'waktu': 0.2}
     sa_params = {'T0': 1.0, 'cooling': 0.995, 'steps': 1000}
 
+    print("\nSimulated Annealing")
+    print("")
     for key in scenario_order:
         file_name = f"{key}.csv"
         fpath = os.path.join(data_dir, file_name)
